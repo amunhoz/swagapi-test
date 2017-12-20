@@ -16,6 +16,8 @@
 
   // activate swagger explorer in http://host:port/explorer
   "debug": true,
+
+  "body-limit": "50mb",
   
   //default locations
   "locations": {

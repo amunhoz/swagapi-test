@@ -4,21 +4,21 @@
   //express logging
   "morgam": {
     "enabled": false,
-    "priority": 10
+    "priority": 1
   },
 
   //===================================================================================
   //basic configuration for express, gzip, etc.
   "express-basic": {
     "enabled": true,
-    "priority": 10
+    "priority": 2
   },
 
   //===================================================================================
   //start api boot scripts
   "api-init": {
     "enabled": true,
-    "priority": 15
+    "priority": 3
   },
 
  //===================================================================================
@@ -26,35 +26,35 @@
   // use swagapi.render(tplname);
   "template": {
     "enabled": true,
-    "priority": 10
+    "priority": 4
   },
   
   //===================================================================================
   //create a api test interface on http://host:port/explorer
   "swagger-ui-express": {
     "enabled": true,
-    "priority": 999
+    "priority": 90
   },
 
   //===================================================================================
   //serve static files on /public location
   "serve-static": {
     "enabled": true,
-    "priority": 999
+    "priority": 91
   },
 
   //===================================================================================
   //too much security for test enviroment
   "helmet": {
     "enabled": false,
-    "priority": 999
+    "priority": 92
   },
 
   //===================================================================================
   //build routes based on swagger documentation on routesApi
   "swaggerize-express": {
     "enabled": true,
-    "priority": 999
+    "priority": 93
   },
 
 
@@ -62,7 +62,7 @@
   //build routes from routesDir directory files
   "mount-routes": {
     "enabled": true,
-    "priority": 1000
+    "priority": 94
   },
 
 
@@ -70,7 +70,7 @@
   //custom express errors with json response
   "express-error": {
     "enabled": true,
-    "priority": 1001
+    "priority": 95
   },
 
 
@@ -78,7 +78,7 @@
   //load permissions to routes
   "permissions": {
     "enabled": true,
-    "priority": 1001
+    "priority": 96
   }
 
 }

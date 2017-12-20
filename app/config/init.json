@@ -23,14 +23,14 @@
         //events library loaded into swagapi.events
         "events": {
           "enabled": true,
-          "priority": 3
+          "priority": 2
         },
 
       //===================================================================================
         //Define a custom timezone for the app
         "timezone": {
           "enabled": true,
-          "priority": 4
+          "priority": 2
         },
 
     
@@ -39,7 +39,7 @@
         // swagapi.models or swagapi.imodels (modified version with events triggers)
         "waterline": {
           "enabled": true,
-          "priority": 11
+          "priority": 5
         },
 
         //===================================================================================
@@ -47,7 +47,7 @@
         // loaded into swagapi.cache
         "cache-manager": {
           "enabled": true,
-          "priority": 11,
+          "priority": 6,
 
           //check https://www.npmjs.com/package/cache-manager for options
           "options": {
@@ -62,13 +62,13 @@
         //load node-schedule on swagapi.schedule
         "schedule": {
           "enabled": true,
-          "priority": 12
+          "priority": 7
         },
 
         //===================================================================================
         //start api boot scripts
         "api-init": {
           "enabled": true,
-          "priority": 15
+          "priority": 8
         }
 }
