@@ -1,3 +1,6 @@
 [submodule "swapi"]
 	path = swapi
-	url = https://github.com/amunhoz/swapi.git
+	url = https://github.com/amunhoz/swagapi.git
+[submodule "swagapi"]
+	path = swagapi
+	url = https://github.com/amunhoz/swagapi.git

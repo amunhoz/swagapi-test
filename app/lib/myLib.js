@@ -1,6 +1,6 @@
 ﻿'use strict';
 
-//create an api lib to be used from "swapi.lib.myLib.funcion()"
+//create an api lib to be used from "swagapi.lib.myLib.funcion()"
 function myLib() {
     return true;
 };

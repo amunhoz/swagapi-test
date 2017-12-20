@@ -4,7 +4,7 @@
 // you can define multiple groups  "group": "user,operator,admin"
 // BE CAREFUL: The sequence of the config define the permission replacement
 // you can check permissions with 
-//  swapi.lib.permission.check(req, groupName) == "allow"
+//  swagapi.lib.permission.check(req, groupName) == "allow"
 //  req.route.permissions[groupName] ==  "allow"
 
 

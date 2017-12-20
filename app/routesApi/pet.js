@@ -3,7 +3,7 @@ const ModelName = "pet";
 
 module.exports = {
 	post: async function (req, res) {
-        swapi.lib.blueprints.create({
+        swagapi.lib.blueprints.create({
             req: req,
             res: res,
             modelName: ModelName,
@@ -16,6 +16,6 @@ module.exports = {
 		//{ req: req, res: res, modelName: "Pet", defaults: {"field1": 0} }
     },
     get: async function (req, res) {
-        swapi.lib.blueprints.find({ req: req, res: res, modelName: ModelName });
+        swagapi.lib.blueprints.find({ req: req, res: res, modelName: ModelName });
     }
 };

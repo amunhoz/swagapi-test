@@ -12,7 +12,7 @@ module.exports = {
         for (var i = 0; i < 5; i++) {
 
             let x = i; //new variable to this context, wont change value in other queue
-            swapi.queue.push(function (cb) {
+            swagapi.queue.push(function (cb) {
                 console.log("test queue"+x);
                 cb();
             });

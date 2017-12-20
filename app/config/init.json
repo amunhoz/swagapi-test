@@ -9,7 +9,7 @@
 
       //===================================================================================
         // queue system for swapi check https://www.npmjs.com/package/queue
-        // use swapi.queue.add(function());
+        // use swagapi.queue.add(function());
         "queue": {
           "enabled": true,
           "priority": 2,
@@ -20,7 +20,7 @@
         },
 
         //===================================================================================
-        //events library loaded into swapi.events
+        //events library loaded into swagapi.events
         "events": {
           "enabled": true,
           "priority": 3
@@ -36,7 +36,7 @@
     
         //===================================================================================
         // automatic open models on /models
-        // swapi.models or swapi.imodels (modified version with events triggers)
+        // swagapi.models or swagapi.imodels (modified version with events triggers)
         "waterline": {
           "enabled": true,
           "priority": 11
@@ -44,7 +44,7 @@
 
         //===================================================================================
         //start cache manager
-        // loaded into swapi.cache
+        // loaded into swagapi.cache
         "cache-manager": {
           "enabled": true,
           "priority": 11,
@@ -59,7 +59,7 @@
         },
 
       //===================================================================================
-        //load node-schedule on swapi.schedule
+        //load node-schedule on swagapi.schedule
         "schedule": {
           "enabled": true,
           "priority": 12
